@@ -17,6 +17,7 @@ ${input_vendor}    //input[@placeholder="N﻿a﻿m﻿e﻿,﻿ ﻿T﻿I﻿N﻿,�
 ${product_one}    //td[@class='o_field_x2many_list_row_add' and contains(.,'Add')]
 ${product_one_name}
 
+
 *** Keywords ***
 Open browser google.com
     Open Browser     ${url}     ${browser}
