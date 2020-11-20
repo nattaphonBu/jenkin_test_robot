@@ -2,8 +2,8 @@
 Library    SeleniumLibrary
 # Suite Teardown    Close Browser
 *** Variables ***
-${browser}    chrome
-${url}    http://localhost:8069/web/login
+# ${browser}    chrome
+${url}    http://117.121.212.239/web/login
 ${expected_result}     Podcasts ไทย
 ${username}    admin
 ${password}    admin
