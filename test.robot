@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 # Suite Teardown    Close Browser
 *** Variables ***
-# ${browser}    chrome
+${browser}    chrome
 ${url}    http://117.121.212.239/web/login
 ${expected_result}     Podcasts ไทย
 ${username}    admin
