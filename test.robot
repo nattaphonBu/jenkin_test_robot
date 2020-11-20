@@ -20,7 +20,7 @@ ${product_one_name}
 
 *** Keywords ***
 Open browser google.com
-    Open Browser     ${url}     ${browser}
+    Open Browser     ${url}     headlesschrome
 Choose DB
     Click Element    ${db}
 Login system with usernem and password
